@@ -14,50 +14,59 @@ export default function Home() {
     <main>
       <div className="space-y-6">
         <div className="flex gap-3 items-center">
-          <Image
-            src="https://i.ibb.co/smP8h8b/booknest-removebg-preview.png"
-            alt="Booknest"
-            width={50} // Adjust the width as needed
-            height={50} // Adjust the height as needed
-          />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <FaHome />
+          </div>
           <h1>Discover</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <FaHome className=""></FaHome>
-          <h1>Discover</h1>
-        </div>
-        <div className="flex gap-3 items-center">
-          <MdOutlineCategory />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <MdOutlineCategory />
+          </div>
           <h1>Category</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <LuBookOpenCheck />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <LuBookOpenCheck />
+          </div>
           <h1>My Library</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <FaDownload />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <FaDownload />
+          </div>
           <h1>Download</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <MdSpatialAudioOff />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <MdSpatialAudioOff />
+          </div>
           <h1>Audio Books</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <FaRegHeart />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <FaRegHeart />
+          </div>
           <h1>Favourite</h1>
         </div>
 
         <hr />
         <div className="flex gap-3 items-center">
-          <IoSettingsOutline />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <IoSettingsOutline />
+          </div>
           <h1>Setting</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <MdOutlineSupportAgent />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <MdOutlineSupportAgent />
+          </div>
           <h1>Support</h1>
         </div>
         <div className="flex gap-3 items-center">
-          <IoIosLogOut />
+          <div className="p-1 rounded-lg bg-blue-500 text-white">
+            <IoIosLogOut />
+          </div>
           <h1>Logout</h1>
         </div>
       </div>
